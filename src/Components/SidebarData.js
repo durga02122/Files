@@ -1,23 +1,25 @@
 import React from 'react'
-import InsertChartRoundedIcon from '@mui/icons-material/InsertChartRounded';
-import VisibilityIcon from '@mui/icons-material/Visibility';
-import UpdateIcon from '@mui/icons-material/Update';
+import InsertChartRoundedIcon from '@mui/icons-material/InsertChartRounded'
+import VisibilityIcon from '@mui/icons-material/Visibility'
+import UpdateIcon from '@mui/icons-material/Update'
 
-export const  SidebarDate =[
+export const SidebarData =[
     {
         title:"Insert",
-        icon:< InsertChartRoundedIcon/>,
-        link:"/InsertChartRounded"
+        icon:<InsertChartRoundedIcon/>,
+        link:"/Insert",
     },
     {
         title:"Preview",
-        icon:<  VisibilityIcon/>,
-        link:"/Visibility"
+        icon:<VisibilityIcon/>,
+        link:"/Visibility",
     },
     {
         title:"Update",
         icon:<UpdateIcon/>,
-        link:"/Update"
-    }
-]
+        link:"/Update",
+    },
+];
+export default SidebarData
+
 
